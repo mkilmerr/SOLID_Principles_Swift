@@ -27,6 +27,16 @@ Objects should be replaceable with instances of their subtypes without altering 
 1. Instead of one monolithic interface, break an interface up based on what implementers should be doing 
 2. Keeps consumers from having to much power 
 
+## Interface Segregation Principle
+
+(M)any client-specific interfaces are better than one general-purpose interface 
+
+**ISP Tips**
+
+1. Instead of one monolithic interface, break an interface up based on what implementers should be doing 
+2. Keeps consumers from having to much power 
+
+
 ## Dependecy Inversion Principle 
 
 High-level modules should not depend on low-level modules. Both should depend on abstractions.
