@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		6434A26424717E9B00477012 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A26324717E9B00477012 /* main.swift */; };
+		6434A26E24717EE700477012 /* Handler_NOT_SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A26D24717EE700477012 /* Handler_NOT_SOLID.swift */; };
+		6434A2702471816400477012 /* Handler_SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A26F2471816400477012 /* Handler_SOLID.swift */; };
+		6434A2732471844000477012 /* Vehicles_NOT_SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A2722471844000477012 /* Vehicles_NOT_SOLID.swift */; };
+		6434A2752471866500477012 /* Vehicles_SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A2742471866500477012 /* Vehicles_SOLID.swift */; };
+		6434A2782471994A00477012 /* Rectangle_NOT_SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A2772471994A00477012 /* Rectangle_NOT_SOLID.swift */; };
+		6434A27A24719C7300477012 /* Rectangle_SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A27924719C7300477012 /* Rectangle_SOLID.swift */; };
+		6434A27F2471A14500477012 /* Button_NOT_SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A27E2471A14500477012 /* Button_NOT_SOLID.swift */; };
+		6434A2812471A24F00477012 /* Button_SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A2802471A24F00477012 /* Button_SOLID.swift */; };
+		6434A2842471A3D100477012 /* VIDEO_NOT_SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A2832471A3D100477012 /* VIDEO_NOT_SOLID.swift */; };
+		6434A2862471A50300477012 /* VIDEO_SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A2852471A50300477012 /* VIDEO_SOLID.swift */; };
+		6434A2892471A6A800477012 /* SaveData_NOT_SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A2882471A6A800477012 /* SaveData_NOT_SOLID.swift */; };
+		6434A28B2471A7D600477012 /* SaveData_SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6434A28A2471A7D600477012 /* SaveData_SOLID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +37,18 @@
 /* Begin PBXFileReference section */
 		6434A26024717E9B00477012 /* SOLID */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SOLID; sourceTree = BUILT_PRODUCTS_DIR; };
 		6434A26324717E9B00477012 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6434A26D24717EE700477012 /* Handler_NOT_SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handler_NOT_SOLID.swift; sourceTree = "<group>"; };
+		6434A26F2471816400477012 /* Handler_SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handler_SOLID.swift; sourceTree = "<group>"; };
+		6434A2722471844000477012 /* Vehicles_NOT_SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicles_NOT_SOLID.swift; sourceTree = "<group>"; };
+		6434A2742471866500477012 /* Vehicles_SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicles_SOLID.swift; sourceTree = "<group>"; };
+		6434A2772471994A00477012 /* Rectangle_NOT_SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle_NOT_SOLID.swift; sourceTree = "<group>"; };
+		6434A27924719C7300477012 /* Rectangle_SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle_SOLID.swift; sourceTree = "<group>"; };
+		6434A27E2471A14500477012 /* Button_NOT_SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_NOT_SOLID.swift; sourceTree = "<group>"; };
+		6434A2802471A24F00477012 /* Button_SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_SOLID.swift; sourceTree = "<group>"; };
+		6434A2832471A3D100477012 /* VIDEO_NOT_SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIDEO_NOT_SOLID.swift; sourceTree = "<group>"; };
+		6434A2852471A50300477012 /* VIDEO_SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIDEO_SOLID.swift; sourceTree = "<group>"; };
+		6434A2882471A6A800477012 /* SaveData_NOT_SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData_NOT_SOLID.swift; sourceTree = "<group>"; };
+		6434A28A2471A7D600477012 /* SaveData_SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData_SOLID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +81,77 @@
 		6434A26224717E9B00477012 /* SOLID */ = {
 			isa = PBXGroup;
 			children = (
+				6434A26A24717EA500477012 /* Single Responsibility Principle */,
+				6434A271247183F700477012 /* Open Closed Principle */,
+				6434A2762471988F00477012 /* Liskov Substitution Principle */,
+				6434A27B2471A0B100477012 /* Interface Segregation Principle */,
+				6434A2872471A67800477012 /* The Dependency Inversion Principle */,
 				6434A26324717E9B00477012 /* main.swift */,
 			);
 			path = SOLID;
+			sourceTree = "<group>";
+		};
+		6434A26A24717EA500477012 /* Single Responsibility Principle */ = {
+			isa = PBXGroup;
+			children = (
+				6434A26D24717EE700477012 /* Handler_NOT_SOLID.swift */,
+				6434A26F2471816400477012 /* Handler_SOLID.swift */,
+			);
+			path = "Single Responsibility Principle";
+			sourceTree = "<group>";
+		};
+		6434A271247183F700477012 /* Open Closed Principle */ = {
+			isa = PBXGroup;
+			children = (
+				6434A2722471844000477012 /* Vehicles_NOT_SOLID.swift */,
+				6434A2742471866500477012 /* Vehicles_SOLID.swift */,
+			);
+			path = "Open Closed Principle";
+			sourceTree = "<group>";
+		};
+		6434A2762471988F00477012 /* Liskov Substitution Principle */ = {
+			isa = PBXGroup;
+			children = (
+				6434A2772471994A00477012 /* Rectangle_NOT_SOLID.swift */,
+				6434A27924719C7300477012 /* Rectangle_SOLID.swift */,
+			);
+			path = "Liskov Substitution Principle";
+			sourceTree = "<group>";
+		};
+		6434A27B2471A0B100477012 /* Interface Segregation Principle */ = {
+			isa = PBXGroup;
+			children = (
+				6434A27C2471A0DA00477012 /* Protocol */,
+				6434A2822471A34500477012 /* Class */,
+			);
+			path = "Interface Segregation Principle";
+			sourceTree = "<group>";
+		};
+		6434A27C2471A0DA00477012 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				6434A27E2471A14500477012 /* Button_NOT_SOLID.swift */,
+				6434A2802471A24F00477012 /* Button_SOLID.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6434A2822471A34500477012 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6434A2832471A3D100477012 /* VIDEO_NOT_SOLID.swift */,
+				6434A2852471A50300477012 /* VIDEO_SOLID.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6434A2872471A67800477012 /* The Dependency Inversion Principle */ = {
+			isa = PBXGroup;
+			children = (
+				6434A2882471A6A800477012 /* SaveData_NOT_SOLID.swift */,
+				6434A28A2471A7D600477012 /* SaveData_SOLID.swift */,
+			);
+			path = "The Dependency Inversion Principle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +212,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6434A2732471844000477012 /* Vehicles_NOT_SOLID.swift in Sources */,
+				6434A2782471994A00477012 /* Rectangle_NOT_SOLID.swift in Sources */,
+				6434A26E24717EE700477012 /* Handler_NOT_SOLID.swift in Sources */,
 				6434A26424717E9B00477012 /* main.swift in Sources */,
+				6434A2752471866500477012 /* Vehicles_SOLID.swift in Sources */,
+				6434A2702471816400477012 /* Handler_SOLID.swift in Sources */,
+				6434A2892471A6A800477012 /* SaveData_NOT_SOLID.swift in Sources */,
+				6434A27A24719C7300477012 /* Rectangle_SOLID.swift in Sources */,
+				6434A2862471A50300477012 /* VIDEO_SOLID.swift in Sources */,
+				6434A2842471A3D100477012 /* VIDEO_NOT_SOLID.swift in Sources */,
+				6434A2812471A24F00477012 /* Button_SOLID.swift in Sources */,
+				6434A28B2471A7D600477012 /* SaveData_SOLID.swift in Sources */,
+				6434A27F2471A14500477012 /* Button_NOT_SOLID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
